@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        function exibirMenu() {
+            console.log("Escolha uma opção:");
+            console.log("1. Opção 1");
+            console.log("2. Opção 2");
+            console.log("3. Opção 3");
+
+            let escolha = prompt("Digite o número da opção desejada:");
+
+            switch (escolha) {
+                case '1':
+                    console.log("Opção 1 escolhida");
+                    break;
+                case '2':
+                    console.log("Opção 2 escolhida");
+                    break;
+                case '3':
+                    console.log("Opção 3 escolhida");
+                    break;
+                default:
+                    console.log("Opção inválida");
+            }
+        }
+
+
+        exibirMenu();
+
+    </script>
+</body>
+
+</html>
